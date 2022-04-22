@@ -15,7 +15,7 @@
 
 - 함수 실행 시 아래와 같이 출력하며 시작합니다.
 
-![image-20220422171852364](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220422171852364.png)
+![image-20220422171852364](https://user-images.githubusercontent.com/76467201/164764663-f3efcff2-a63a-48b2-ab3f-02f61d155d61.png)
 
 - 사용자는 숫자를 입력해서 숫자 야구 or 행맨을 실행합니다.
 
@@ -29,23 +29,27 @@
 
 게임 시작시 아래와 같은 화면으로 시작합니다.
 
-![image-20220423021013529](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220423021013529.png)
+![image-20220423021013529](https://user-images.githubusercontent.com/76467201/164764804-01b39b55-491b-4ba2-a4df-ecd9f3d2bd66.png)
+
 
 - 사용자는 3자리의 숫자를 입력합니다. (3자리만 입력받는다고 가정)
 - 숫자 입력에 따라 strike, ball을 출력해줍니다.
 
-![image-20220423021058699](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220423021058699.png)
+![image-20220423021058699](https://user-images.githubusercontent.com/76467201/164764833-f65df831-7ada-414c-9763-b10a02fbefa0.png)
+
 
 - 정답을 맞출시 아래와 같이 출력하고 다음 게임의 진행 여부를 물어봅니다.
 
-![image-20220423021156153](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220423021156153.png)
+![image-20220423021156153](https://user-images.githubusercontent.com/76467201/164764883-8be52b08-145c-427f-b3e3-e0b7178cbc9c.png)
+
 
 # 행맨
 
 - 행맨을 시작하면 컴퓨터는 랜덤한 단어를 생성합니다. (단어는 "cat","dog","school" 3개중에서 랜덤으로 고르게 합니다.)
 - 단어를 생성한 직후 아래와 같은 화면을 사용자에게 보여주고, 단어의 글자 수를 알려줍니다.
 
-![image-20220422172500880](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220422172500880.png)
+![image-20220422172500880](https://user-images.githubusercontent.com/76467201/164764929-e94fe73c-9d55-4803-a8a1-4cae5695a179.png)
+
 
 - 사용자가 단어를 입력한 것에 따라 다르게 동작합니다. (글자 수에 알맞게만 입력받는다고 가정)
 
@@ -53,7 +57,8 @@
   - 같은 자리에 철자가 동일하면 해당 철자를 채워서 출력
   - 정답을 맞췄다면 출력하고 종료
 
-  ![image-20220423021818617](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220423021818617.png)
+![image-20220423021818617](https://user-images.githubusercontent.com/76467201/164764977-96c67586-9235-4bad-a426-e64f35477f6e.png)
+
 
 - 게임을 종료하고 다음 게임을 할 것인지 여부를 묻는다. 
 

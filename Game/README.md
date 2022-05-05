@@ -92,8 +92,8 @@ HashSet<Integer> set = new HashSet<>();
 set.put(1); // 1을 set 집합에 넣는다.
 
 // Set은 중복되는 것은 넣지 않는다. 넣은 순서대로 저장되지는 않는다. 
-set.put(1);
-set.put(1);
+set.add(1);
+set.add(1);
 set.size(); // szie = 1로 반환된다.
 
 // interator 반복자 사용 for문을 사용하는 것과 같다고 생각해도 된다.

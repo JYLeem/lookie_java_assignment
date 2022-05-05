@@ -14,7 +14,6 @@ public class NumBaseball extends Game {
         boolean flag = true;
         initPrint();
         String Answer = setAnswer();
-        System.out.println(Answer);
         while (flag) {
             String SetNum = input();
             flag = checkAnswer(Answer, SetNum);

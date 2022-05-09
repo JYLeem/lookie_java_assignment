@@ -1,13 +1,20 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
 public class HangMan extends  Game{
     private static final String START_HangMan = "행맨 게임을 시작합니다.";
     private static final String[] WORD_LIST = { "cat", "dog", "school" };
+
+    private HangMan() {}
+    public static HangMan getInstance() {
+        return LazyHolder.INSTANCE;
+    }
+    private static class LazyHolder {
+        private static final HangMan INSTANCE = new HangMan();
+    }
 
     @Override
     public void play() throws IOException {

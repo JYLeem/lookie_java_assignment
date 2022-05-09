@@ -9,6 +9,15 @@ public class NumBaseball extends Game {
     private static final String START_BASEBALL = "숫자야구를 시작합니다.";
     private static final String CHOICE_NUM = "생각하시는 3자리 숫자를 입력해주세요.";
 
+    private NumBaseball() {}
+    public static NumBaseball getInstance() {
+        return NumBaseball.LazyHolder.INSTANCE;
+    }
+    private static class LazyHolder {
+        private static final NumBaseball INSTANCE = new NumBaseball();
+    }
+
+
     @Override
     public void play() throws IOException {
         boolean flag = true;

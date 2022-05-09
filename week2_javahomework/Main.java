@@ -7,7 +7,7 @@ public class Main {
     private static final String CHOICE_GAME = "게임을 골라주세요. \n 1. 숫자 야구 2. 행맨";
     private static final String CHOICE_KEEP_GOING_COMMENT="게임을 게속 하시려면 1 종료를 원하시면 0 을 입력해주세요.";
     public static void main(String[] args) throws IOException {
-        GameConsole console = GameConsole.getInstance();
+        GameConsole console = new GameConsole();
 
         boolean flag = true;
         while(flag){

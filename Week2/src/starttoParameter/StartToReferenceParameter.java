@@ -1,4 +1,4 @@
-
+package starttoParameter;
 
 
 class Duck{
@@ -50,15 +50,24 @@ class BodyOrgan{
 public class StartToReferenceParameter{
     public static void main(String[] args) {
 
-        Duck []ducks = new Duck[10];
+        Duck[] ducks = new Duck[10];
+        ducks[5] = new Duck(10,new BodyOrgan("h1","h2"));
         int sixthDuckAge = ducks[5].getAge();
-
 
         // primitive 자료형은 기본형 매개변수
         int a = 10;
 
         // 객체는 참조형 매개변수
-        BodyOrgan bodyOrgan = new BodyOrgan("h1","h2");
+        BodyOrgan bodyOrgan = new BodyOrgan("h1", "h2");
 
+        System.out.println(bodyOrgan.getFoot());
+        change(a, bodyOrgan);
+        System.out.println(a+" "+bodyOrgan.getFoot());
+
+    }
+
+    private static void change(int a,BodyOrgan bodyOrgan) {
+        a=11;
+        bodyOrgan.setFoot("h2");
     }
 }
